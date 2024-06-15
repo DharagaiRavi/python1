@@ -146,8 +146,48 @@ name="My institute is softlogic"
 # fun=TestValue.rstrip()
 # print(TestValue)
 # print(fun[-1])
-name1="Hello World How Are you"
-name=name1.replace(" ","")
-print(name)
+#Removing spaces inbetween the words
+# name1="Hello World How Are you"
+# name=name1.replace(" ","")
+# print(name)
+# #13.isalpha-check only alpha
+# Testvalue="asd"
+# check_data=Testvalue.isalpha()
+# print(check_data)
+# #14.isnumeric-check only numeric
+# Testvalue="2321"
+# check_data=Testvalue.isnumeric()
+# print(check_data)
+#15.isalnum-check for alphabets and numeric
+# Testvalue="2321sds"
+# check_data=Testvalue.isalnum()
+# print(check_data)
+#16.partition-returns in tuple
+# Testvalue="Softloglic"
+# check_data=Testvalue.partition('l')
+# print(check_data)
+
+# Testvalue="Softloglic"
+# check_data=Testvalue.partition('d')
+# print(check_data)
+
+
+# Testvalue="Softloglic"
+# check_data=Testvalue.partition('')
+# print(check_data)
+#17.split
+Testvalue="Softloglic"
+check_data=Testvalue.split('l')
+print(check_data)
+
+Testvalue="Softloglic"
+check_data=Testvalue.split('d')
+print(check_data)
+
+
+Testvalue="Softloglic"
+check_data=Testvalue.split('')
+print(check_data)
+
 
 
