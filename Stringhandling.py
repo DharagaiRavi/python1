@@ -162,7 +162,7 @@ name="My institute is softlogic"
 # Testvalue="2321sds"
 # check_data=Testvalue.isalnum()
 # print(check_data)
-#16.partition-returns in tuple
+# #16.partition-returns in tuple
 # Testvalue="Softloglic"
 # check_data=Testvalue.partition('l')
 # print(check_data)
@@ -175,19 +175,48 @@ name="My institute is softlogic"
 # Testvalue="Softloglic"
 # check_data=Testvalue.partition('')
 # print(check_data)
-#17.split
-Testvalue="Softloglic"
-check_data=Testvalue.split('l')
-print(check_data)
+#17.split-returns the result in list
+# Testvalue="Softloglic"
+# check_data=Testvalue.split('l')
+# print(check_data)
 
-Testvalue="Softloglic"
-check_data=Testvalue.split('d')
-print(check_data)
+# Testvalue="Softloglic"
+# check_data=Testvalue.split('d')
+# print(check_data)
+
+# Testvalue="Softloglic"
+# check_data=Testvalue.split('')
+# print(check_data)
+
+name="my-institute-is-solftolgic"
+name=name.replace("-","")[1:11]
+first_half=name[:len(name)//2]
+second_half=name[:len(name)//2:]
+name=f"{first_half}_{second_half}"
+print(name,len(name))
 
 
-Testvalue="Softloglic"
-check_data=Testvalue.split('')
-print(check_data)
 
+# name="my-institute-is-solftolgic"
+# check_value=name.replace('-','')
+# print("Check_name:",check_value)
+# check_result=check_value[1:11]
+# print(check_result)
+# len_checkresult=len(check_result)/2
+# print(len_checkresult)
+# first_value=check_result[0:len(check_result)//2]
+# print(first_value)
+# second_value=check_result[len(check_result)//2:]
+# print(second_value)
+# #len_new_value=check_result.index(len_checkresult)
+# #print(len_new_value)
+# new_value="_"
+# check_result1=check_result[0:5]
+# print(check_result1)
+# check_result2=check_result[5:10]
+# print(check_result2)
+# final_result=check_result1+new_value+check_result2
+# print(final_result)
+# print(len(final_result))
 
 
