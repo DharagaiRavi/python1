@@ -163,9 +163,9 @@ name="My institute is softlogic"
 # check_data=Testvalue.isalnum()
 # print(check_data)
 # #16.partition-returns in tuple
-# Testvalue="Softloglic"
-# check_data=Testvalue.partition('l')
-# print(check_data)
+Testvalue="Softloglic"
+check_data=Testvalue.partition('l')
+print(check_data)
 
 # Testvalue="Softloglic"
 # check_data=Testvalue.partition('d')

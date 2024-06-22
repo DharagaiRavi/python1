@@ -37,29 +37,57 @@
 #While loop-Only starting point is enough ,it will go infinite times..
 
 insName="softlogic"
-for data in insName:
-    print(data)
-print("---END----")
+# for data in insName:
+#     print(data)
+# print("---END----")
 
-for value in range(-5,-3):
-    print(value)
-print("END OF RANGE")
+# for value in range(-5,-3):
+#     print(value)
+# print("END OF RANGE")
 
-#range-if we use the range,we will get the index of the value.If we dont need index,simply pass the string name(insName)
-for data in range(0,len(insName)):
-    #print(data)
-    print(data,insName[data])
-print("END")
+# #range-if we use the range,we will get the index of the value.If we dont need index,simply pass the string name(insName)
+# for data in range(0,len(insName)):
+#     #print(data)
+#     print(data,insName[data])
+# print("END")
 
 stringLength=len(insName)
-num=0
-for data in range(stringLength):
-    print("first print",num)
-    num+=1
-    print("second print",num)
-print("END")
+# num=0
+# for data in range(stringLength):
+#     print("first print",num)
+#     num+=1
+#     print("second print",num)
+# print("END")
 
-for data in range(stringLength):
-    if (data%2==0):
-        print(data,insName[data])
-print("EOE")
+# for data in range(stringLength):
+#     if (data%2==0):
+#         print(data,insName[data])
+# print("EOE")
+
+# name="Softlogic"
+# num=2
+# for value in range(len(name)):
+#    if value==num:
+#       print(name[value])
+#       num=num+3
+
+name1="santhosh"
+# print("length",len(name1))
+output=""
+# for value in name1:
+#     output +=(value+"_")
+# print(output)
+
+# print(output[:-1])
+
+for i in range(len(name1)):
+    if (i==len(name1)-1):
+        output+=name1[i]
+    else:
+        output+=name1[i]+"_"
+print(output)
+
+
+
+  
+   
