@@ -22,12 +22,44 @@
 # elif(x==1 or x<5):
 #     print("I have value lesser than 1")
 
-print(bool(0))
-print(bool(1))
-print(bool(-1))
-name="softlogic"
-if name.find('b')>0:
-    print("The String has 'o'")
-else:
-    print("The String do not have 'o'")
+# print(bool(0))
+# print(bool(1))
+# print(bool(-1))
+# name="softlogic"
+# if name.find('b')>0:
+#     print("The String has 'o'")
+# else:
+#     print("The String do not have 'o'")
 
+#Loopings
+#for loop and While loop
+#For loop-We should give start and end range
+#While loop-Only starting point is enough ,it will go infinite times..
+
+insName="softlogic"
+for data in insName:
+    print(data)
+print("---END----")
+
+for value in range(-5,-3):
+    print(value)
+print("END OF RANGE")
+
+#range-if we use the range,we will get the index of the value.If we dont need index,simply pass the string name(insName)
+for data in range(0,len(insName)):
+    #print(data)
+    print(data,insName[data])
+print("END")
+
+stringLength=len(insName)
+num=0
+for data in range(stringLength):
+    print("first print",num)
+    num+=1
+    print("second print",num)
+print("END")
+
+for data in range(stringLength):
+    if (data%2==0):
+        print(data,insName[data])
+print("EOE")
